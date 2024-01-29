@@ -4,9 +4,9 @@ import TodoForm from "./TodoForm"
 import Todos from "./Todos"
 
 const fakeTodos =[
-    { id:1 ,title:"learn react" ,completed:false},
-    { id:2 ,title:"jsx" ,completed:true},
-    { id:3 ,title:"react" ,completed:true}
+    { id:1 ,title:"learn html " ,completed:false},
+    { id:2 ,title:"learn js" ,completed:true},
+    { id:3 ,title:"learn react" ,completed:true}
 ]
 const TodoApp = () =>{
     const [todos ,setTodos] = useState(fakeTodos);
